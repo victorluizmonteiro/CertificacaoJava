@@ -1,0 +1,10 @@
+Resposta exercicio  1 -> correta : a) Erro de compilação, como a variavel i foi declarada no bloco for, ela assume escopo de variavel Local
+Ou seja, só podemos usa-la dentro do bloco, caso contrário  a JVM não compila o código.
+
+Resposta exercicio 2 -> correta : a) Erro de compilação, como a variavel i foi declarada dentro do for, só pode ser acessada dentro do bloco,porem não declaramos as {} do blocom identificando seu inicio,causando erro de compilação
+
+Resposta exercicio 3 -> correta : c) Compila,roda o codigo imprime o valor de 0 a 19 e depois 15, pois podemos definir uma variavel de instancia com o mesmo nome de uma variavel local, pois a variavel local so é visivel dentro do bloco.Assim,ficamos livres para usar o mesmo nome em variaveis de instancia
+
+Resposta exercicio 4 -> correta : c) O Código não compila. Isso ocorre pois náo especificamos qual variavel x usariamos, se era a variavel com escopo de classe ou local, assim, a jvm assume como a variavel de menor escopo(local), e como nossa variavel de escopo local é uma String, ocorre erro de incompatibildade de tipos.
+
+Resposta exercicio 5 -> correta : d) Compila e imprimi os numeros de 10 a 9, pois podemos acessar uma variavel static atravez da instancia da classe, ou pela propria variavel.

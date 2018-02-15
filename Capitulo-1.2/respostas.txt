@@ -1,0 +1,5 @@
+Resposta exercicio 1 -> alternativa : a) Código não compila,pois temos um import no meio do código, ocasionando o erro. O import deve ficar no topo do arquivo, após a declaração do package.
+
+Resposta exercicio 2 ->  alternativa : e) Código compila e não imprime nada. Pois  no metodo main, instaciamos a classe, e não utilizamos o metodo com o meso nome. Isso causa confusão,  pois parece que estamos usando o construtor, mas estamos usando um metodo qualquer.
+
+Resposta exercicio 3 -> alternativa : c) Compila sem erros. Porem não gera nenhuma arquivo .class
