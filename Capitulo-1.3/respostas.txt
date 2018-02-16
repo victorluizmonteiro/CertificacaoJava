@@ -1,0 +1,10 @@
+Resposta exercicio 1 -> correta : a) Escrita válida do metodo main : public static void main(String... args)
+Resposta exercicio 2 -> correta : d) Para compilarmos o arquivo .java com javac, devemos  usar a seguinte sintaxe : diretorio/arquivo.java
+e para rodarmos o programa compilado, utilizamos o comando java diretorio.arquivoJava
+
+Resposta exercicio 3 -> correta : c) Compilamos e rodamos a classe, e apresenta erro, pois não passamos nenhum parametro para o metodo main, assim, não encontramos a posição 0 . ocasionando o erro.
+
+Resposta exercicio 4 -> correta : f) Devemos rodar o comando java -cp program.jar b.A, Mas antes, é preciso rodar  jar -cf program.jar b , para criar um jar com a pasta "b" dentro do mesmo.
+Obs:. Devemos rodar o comando java -cp program.jar b.A pois não temos o arquivo manifest dentro do jar.
+
+Resposta exercicio 5 -> correta : h) Devemos rodar o comando javac -cp program.jar:.b/A.java, pois o : para concatenar 2 arquivos na compilação, e o "." para identificar o diretório atual.
