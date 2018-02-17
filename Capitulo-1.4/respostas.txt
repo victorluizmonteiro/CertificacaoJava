@@ -1,0 +1,17 @@
+Resposta exercicio 1 -> Alternativa : a) O Programa não compila, erro na classe Test, pois não temos um construtor publico para fazer o acesso á class, ocasionando erro.
+c
+Resposta exercicio 2 -> Alternativa : a ) A classe TestEX2 não compila,erro na linha do segundo import, pois estamos tentando importar 2 classes iguais, ocasionando erro.
+
+Resposta exercicio 3 -> Alternativa : c) o Código compila, e imprime o valor que definimos na classe do pacote basic, pois quando tempos dois imports da mesma classe, e um é import * , pegamos como referencia o mais especifico, ou seja, import.model.basic.Client
+
+Resposta exercicio 4 -> Alternativa : c) O código compila e imprime o valor da classe, como os dois imports são iguais, um é ignorado, causando apenas um warning.
+
+Respostas exercicio 5 -> Alternativa : e) Os arquivos A e C não compilam, pois tentam acessar a classe B diretamente pelo seu pacote, porem o pacote b está dentro de outro pacote,então, deveriamos acessa-lo por a.b.B
+
+Resposta exercicio 6 -> Alternativa : d) Compila e roda normalmente, o nome do parametro do metodo main pode ser qualquer coisa.
+
+Resposta exercicio 7 -> Alternativa b) O Programa B não compila, erro na linha 5 , pois tentamos instaciar uma classe A, porem usamos import static, que só nos disponibiliza metodos e atributos estaticos, ocasionando o erro.
+
+Respostas exercicio 8 -> Alternativa  d) Tudo compila, pois importamos os metodos e atributos estáticos e tambem importamos a classe A , não ocasionando erros.
+
+Resposta exercicio 9 -> Alternativa b) Tudo compila, pois estamos usando o import estatico  e tambem o import convencional, assim podemos mesclar o uso na classe.
